@@ -63,7 +63,7 @@ source=(
 
   # Bluetooth 16.1 patch
   9001-fix-bluetooth-shutdown.patch
-  9002-bluetooth-rollback.patch
+  # 9002-bluetooth-rollback.patch
 )
 
 validpgpkeys=(
@@ -267,5 +267,5 @@ md5sums=('951672e89ffa0a2f32ea34732ee85f3f'
          '7fa951078b1710bda14dbc778e57003f'
          'ad2552bc11f7fd9d57ccda27272fee44'
          '41911438d2c769d064f6b58cc1c7f83f'
-         '655c7e88c8941db690b6bd22efd41b97'
-         'f971bfb843dcdcc7c8f83d963ce3cffa')
+         '655c7e88c8941db690b6bd22efd41b97')
+#         'f971bfb843dcdcc7c8f83d963ce3cffa')
